@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_caracteristicas",
+  "info": {
+    "displayName": "caracteristicas",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Habitaciones": {
+      "type": "integer",
+      "min": 1
+    },
+    "areaSize": {
+      "type": "integer"
+    },
+    "bathrooms": {
+      "type": "integer"
+    },
+    "Amueblada": {
+      "type": "boolean",
+      "default": true
+    },
+    "Parking": {
+      "type": "integer"
+    },
+    "Patio_Trasero": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
