@@ -9,7 +9,7 @@
   "attributes": {
     "Habitaciones": {
       "type": "integer",
-      "min": 1
+      "min": 0
     },
     "areaSize": {
       "type": "integer"

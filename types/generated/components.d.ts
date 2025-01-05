@@ -14,7 +14,7 @@ export interface SharedCaracteristicas extends Struct.ComponentSchema {
     Habitaciones: Schema.Attribute.Integer &
       Schema.Attribute.SetMinMax<
         {
-          min: 1;
+          min: 0;
         },
         number
       >;
