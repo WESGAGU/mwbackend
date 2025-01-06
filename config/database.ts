@@ -24,8 +24,7 @@ export default ({ env }) => {
     },
     postgres: {
       connection: {
-        connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'ep-sweet-union-a53u8tdv'),
+        host: env('DATABASE_HOST', 'ep-sweet-union-a53u8tdv.us-east-2.aws.neon.tech'), // Host completo de Neon
         port: env.int('DATABASE_PORT', 5432),
         database: env('DATABASE_NAME', 'mw-strapi-db'),
         user: env('DATABASE_USERNAME', 'mw-strapi-db_owner'),
