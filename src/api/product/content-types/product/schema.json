@@ -75,13 +75,13 @@
       },
       "type": "enumeration",
       "enum": [
-        "Nueva-Segovia ",
+        "NuevaSegovia ",
         "Esteli",
         "Managua",
         "León"
       ],
       "required": true,
-      "default": "Nueva-Segovia "
+      "default": "NuevaSegovia "
     },
     "Municipality": {
       "pluginOptions": {
