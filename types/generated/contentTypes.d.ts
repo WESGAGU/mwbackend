@@ -645,7 +645,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     departament: Schema.Attribute.Enumeration<
-      ['Nueva_Segovia ', 'Esteli', 'Managua', 'Le\u00F3n']
+      ['Nueva-Segovia ', 'Esteli', 'Managua', 'Le\u00F3n']
     > &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
@@ -653,7 +653,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
           localized: false;
         };
       }> &
-      Schema.Attribute.DefaultTo<'Nueva_Segovia '>;
+      Schema.Attribute.DefaultTo<'Nueva-Segovia '>;
     description: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
