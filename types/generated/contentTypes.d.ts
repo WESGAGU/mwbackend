@@ -691,7 +691,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::product.product'
     >;
-    Municipality: Schema.Attribute.Enumeration<['jalapa', 'ocotal', 'esteli']> &
+    Municipality: Schema.Attribute.Enumeration<['Jalapa', 'Ocotal', 'Esteli']> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

@@ -91,9 +91,9 @@
       },
       "type": "enumeration",
       "enum": [
-        "jalapa",
-        "ocotal",
-        "esteli"
+        "Jalapa",
+        "Ocotal",
+        "Esteli"
       ]
     },
     "images": {
