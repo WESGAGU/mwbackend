@@ -645,14 +645,15 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     departament: Schema.Attribute.Enumeration<
-      ['Nueva Segovia ', 'Esteli', 'Managua', 'Le\u00F3n']
+      ['Nueva_Segovia ', 'Esteli', 'Managua', 'Le\u00F3n']
     > &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
         };
-      }>;
+      }> &
+      Schema.Attribute.DefaultTo<'Nueva_Segovia '>;
     description: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
