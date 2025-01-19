@@ -645,7 +645,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     departament: Schema.Attribute.Enumeration<
-      ['NuevaSegovia ', 'Esteli', 'Managua', 'Le\u00F3n']
+      ['NuevaSegovia ', 'Esteli', 'Nueva-Segovia', 'Managua', 'Leon']
     > &
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{

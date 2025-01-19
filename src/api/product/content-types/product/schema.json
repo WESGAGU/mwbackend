@@ -77,8 +77,9 @@
       "enum": [
         "NuevaSegovia ",
         "Esteli",
+        "Nueva-Segovia",
         "Managua",
-        "León"
+        "Leon"
       ],
       "required": true,
       "default": "NuevaSegovia "
