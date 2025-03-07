@@ -176,6 +176,14 @@
       "relation": "manyToMany",
       "target": "plugin::users-permissions.user",
       "mappedBy": "products"
+    },
+    "description2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
