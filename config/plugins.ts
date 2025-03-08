@@ -6,10 +6,13 @@ export default ({ env }) => ({
         cloud_name: env("CLOUDINARY_NAME"),
         api_key: env("CLOUDINARY_KEY"),
         api_secret: env("CLOUDINARY_SECRET"),
+        secure: true,
       },
       actionOptions: {
         upload: {
-          transformation: [], // Esto desactiva cualquier transformación, como miniaturas, recortes, etc.
+          folder: "uploads",
+          transformation: [], // No aplicar transformaciones automáticas
+          allowed_formats: ["jpg", "jpeg", "png", "webp"], // Solo estos formatos
         },
         delete: {},
       },
