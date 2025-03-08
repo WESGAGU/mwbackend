@@ -8,7 +8,9 @@ export default ({ env }) => ({
         api_secret: env("CLOUDINARY_SECRET"),
       },
       actionOptions: {
-        upload: {},
+        upload: {
+          transformation: [], // Esto desactiva cualquier transformación, como miniaturas, recortes, etc.
+        },
         delete: {},
       },
     },
