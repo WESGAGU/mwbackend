@@ -1,18 +1,16 @@
 export default ({ env }) => ({
-    email: {
-      config: {
-        provider: 'nodemailer',
-        providerOptions: {
-          service: 'gmail', // Usar el servicio de Gmail
-          auth: {
-            user: env('SMTP_USERNAME'), // Tu correo de Gmail
-            pass: env('SMTP_PASSWORD'), // Tu contraseña de aplicación de Gmail
-          },
-        },
-        settings: {
-          defaultFrom: 'mwbienesinmuebles@gmail.com', // Correo que aparecerá como remitente
-          defaultReplyTo: 'mwbienesinmuebles@gmail.com', // Correo para respuestas
-        },
+  upload: {
+    config: {
+      provider: "@strapi/provider-upload-cloudinary",
+      providerOptions: {
+        cloud_name: env("CLOUDINARY_NAME"),
+        api_key: env("CLOUDINARY_KEY"),
+        api_secret: env("CLOUDINARY_SECRET"),
+      },
+      actionOptions: {
+        upload: {},
+        delete: {},
       },
     },
-  });
+  },
+});
