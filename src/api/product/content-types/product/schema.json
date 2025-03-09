@@ -58,15 +58,6 @@
       "relation": "oneToOne",
       "target": "api::product-category.product-category"
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text",
-      "required": false
-    },
     "departament": {
       "pluginOptions": {
         "i18n": {
@@ -177,7 +168,7 @@
       "target": "plugin::users-permissions.user",
       "mappedBy": "products"
     },
-    "description2": {
+    "description": {
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -12,9 +12,7 @@ export default ({ env }) => ({
         upload: {
           folder: "uploads",
           transformation: [], // No aplicar transformaciones automáticas
-          allowed_formats: ["jpg", "jpeg", "png", "webp"], // Solo estos formatos
-          overwrite: true, // Evita duplicados
-          unique_filename: false, // Usa el mismo nombre si se sube la misma imagen
+          allowed_formats: ["jpg", "jpeg", "png", "webp"], // Solo estos formatos          
         },
         delete: {},
       },
