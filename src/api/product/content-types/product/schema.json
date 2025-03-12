@@ -84,8 +84,17 @@
       "type": "enumeration",
       "enum": [
         "Jalapa",
+        "Murra",
+        "El Jícaro",
+        "San Fernando",
+        "Mozonte",
+        "Dipilto",
+        "Macuelizo",
+        "Santa María ",
         "Ocotal",
-        "Esteli"
+        "Ciudad Antigua",
+        "Quilalí",
+        "Wiwilí NS"
       ]
     },
     "images": {
